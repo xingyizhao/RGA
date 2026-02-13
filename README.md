@@ -5,7 +5,7 @@ Short one-paragraph overview of what this repo does.
 
 ---
 
-## Table of Contents
+## 📚 Table of Contents
 1. [Overview](#overview)
 2. [System Configuration](#system-configuration)
 3. [Installation](#installation)
