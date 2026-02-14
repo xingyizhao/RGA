@@ -1,8 +1,5 @@
 # ICLR 2026
-# RGA: Don't Shift the Trigger
-
-Short one-paragraph overview of what this repo does.
-
+# Don't Shift the Trigger: Robust Gradient Ascent for Backdoor Unlearning
 ---
 
 ## 📚 Table of Contents
@@ -20,9 +17,6 @@ Short one-paragraph overview of what this repo does.
 ---
 
 ## Overview
-- What problem you solve
-- What RGA is
-- Key results / highlights
 
 ## System Configuration
 - OS, GPU, CUDA, Python version, etc.
