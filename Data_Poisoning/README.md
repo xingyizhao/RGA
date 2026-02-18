@@ -88,5 +88,4 @@ test_poisoned_part.csv -- measures standard backdoor behavior (targeted misclass
 test_poisoned_all.csv -- is specifically designed to identify trigger shifting after unlearning.
 
 ## HiddenKiller Generation
-For HiddenKiller, we use [OpenAttack](https://github.com/thunlp/OpenAttack) to generate poisoning data. For more attack settings, please refer to Section 6.1.
- 
+For HiddenKiller, we use [OpenAttack](https://github.com/thunlp/OpenAttack) to generate poisoning data. For more attack settings, please see Section 6.1.
