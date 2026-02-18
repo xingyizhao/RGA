@@ -1,7 +1,7 @@
 
 # 🧪 Data Poisoning (Backdoor Data)
 
-This directory contains the **poisoned and clean datasets** used in *Don't Shift the Trigger: Robust Gradient Ascent for Backdoor Unlearning (ICLR 2026)*.
+This directory contains the **poisoned and clean datasets** used in *Don't Shift the Trigger: Robust Gradient Ascent for Backdoor Unlearning*.
 
 We provide **three backdoor attacks**:
 - **BadNets**
