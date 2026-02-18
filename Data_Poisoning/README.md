@@ -66,11 +66,11 @@ test_poisoned_all.csv
 ---
 
 ## File Definitions:
-train_clean.csv: A fully clean training set **no triggers** are inserted.
-train_poisoned.csv: A poisoned training set constructed by injecting triggered samples into train_clean.csv with a poisoning ratio of 10%. Triggered samples in training data are label-flipped to the target class.
-test_clean.csv: A clean test set **no trigger** are inserted, used to measure clean accuracy.
-test_poisoned_part.csv: A partially triggered test set where we insert the trigger only into non-target-class samples, used to evaluate backdoor success (the trigger causes non-target --> target misclassification).
-test_poisoned_all.csv: A fully triggered test set where we insert the trigger into samples from all classes, used to detect trigger shifting after unlearning.
+- `train_clean.csv`: A fully clean training set **no triggers** are inserted.
+- `train_poisoned.csv`: A poisoned training set constructed by injecting triggered samples into train_clean.csv with a poisoning ratio of 10%. Triggered samples in training data are label-flipped to the target class.
+- `test_clean.csv`: A clean test set **no trigger** are inserted, used to measure clean accuracy.
+- `test_poisoned_part.csv`: A partially triggered test set where we insert the trigger only into non-target-class samples, used to evaluate backdoor success (the trigger causes non-target --> target misclassification).
+- `test_poisoned_all.csv`: A fully triggered test set where we insert the trigger into samples from all classes, used to detect trigger shifting after unlearning.
 
 ---
 
