@@ -40,7 +40,7 @@ We construct poisoned training sets by inserting triggers into a subset of train
 ## Directory Structure
 A typical layout is:
 
-```text
+```
 Data_Poisoning/
 ├── BadNets/
 │   ├── SST-2/
@@ -54,7 +54,7 @@ Data_Poisoning/
     ├── SST-2/
     ├── HSOL/
     └── AG/
-
+```
 
 Each dataset folder contains:
 
