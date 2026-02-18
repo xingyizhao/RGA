@@ -40,6 +40,7 @@ We construct poisoned training sets by inserting triggers into a subset of train
 ## Directory Structure
 A typical layout is:
 
+```text
 Data_Poisoning/
 ├── BadNets/
 │   ├── SST-2/
@@ -63,6 +64,7 @@ test_clean.csv
 test_poisoned_part.csv
 test_poisoned_all.csv
 
+```
 ---
 
 ## File Definitions:
