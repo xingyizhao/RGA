@@ -50,9 +50,9 @@ We construct poisoned training sets by inserting triggers into a subset of train
 Poisoning ratio: 10% (for main experiments)
 
 Target class per dataset:
-SST-2: target class = positive
-HSOL: target class = non-hate
-AG: target class = world
+SST-2: target class = positive;
+HSOL: target class = non-hate;
+AG: target class = world;
 
 ---
 
