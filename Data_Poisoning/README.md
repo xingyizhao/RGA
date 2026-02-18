@@ -33,8 +33,7 @@ Each *(attack, dataset)* pair contains **five CSV files**:
 ---
 
 ## Overview
-We construct poisoned training sets by inserting triggers into a subset of training samples and **changing their labels to the target class** (i.e., targeted backdoor poisoning).  
-For testing, we **only insert triggers** to measure whether the model is misclassified (we do **not** flip labels in test files).
+We construct poisoned training sets by inserting triggers into a subset of training samples and **changing their labels to the target class** (i.e., targeted backdoor poisoning). For testing, we **only insert triggers** to measure whether the model is misclassified (we do **not** flip labels in test files).
 
 ---
 
@@ -55,6 +54,8 @@ Data_Poisoning/
     ├── SST-2/
     ├── HSOL/
     └── AG/
+
+
 Each dataset folder contains:
 
 train_clean.csv
