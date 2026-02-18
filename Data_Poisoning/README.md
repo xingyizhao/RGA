@@ -24,47 +24,17 @@ Each *(attack, dataset)* pair contains **five CSV files**:
 
 ## 📚 Table of Contents
 1. [Overview](#overview)
-2. [Directory Structure](#directory-structure)
-3. [File Definitions](#file-definitions)
-4. [Target Classes and Poisoning Ratio](#target-classes-and-poisoning-ratio)
-5. [Evaluation Protocol Notes](#evaluation-protocol-notes)
-6. [HiddenKiller Generation (OpenAttack)](#hiddenkiller-generation-openattack)
+2. [File Definitions](#file-definitions)
+3. [Target Classes and Poisoning Ratio](#target-classes-and-poisoning-ratio)
+4. [Evaluation Protocol Notes](#evaluation-protocol-notes)
+5. [HiddenKiller Generation (OpenAttack)](#hiddenkiller-generation-openattack)
+6. [Directory Structure](#directory-structure)
 
 ---
 
 ## Overview
 We construct poisoned training sets by inserting triggers into a subset of training samples and **changing their labels to the target class** (i.e., targeted backdoor poisoning). For testing, we **only insert triggers** to measure whether the model is misclassified (we do **not** flip labels in test files).
 
----
-
-## Directory Structure
-A typical layout is:
-
-```
-Data_Poisoning/
-├── BadNets/
-│   ├── SST-2/
-│   ├── HSOL/
-│   └── AG/
-├── AddSent/
-│   ├── SST-2/
-│   ├── HSOL/
-│   └── AG/
-└── HiddenKiller/
-    ├── SST-2/
-    ├── HSOL/
-    └── AG/
-```
-
-Each dataset folder contains:
-
-train_clean.csv
-train_poisoned.csv
-test_clean.csv
-test_poisoned_part.csv
-test_poisoned_all.csv
-
-```md
 ---
 
 ## File Definitions:
@@ -89,5 +59,37 @@ AG: target class = world
 test_poisoned_part.csv -- measures standard backdoor behavior (targeted misclassification).
 test_poisoned_all.csv -- is specifically designed to identify trigger shifting after unlearning.
 
+---
+
 ## HiddenKiller Generation
 For HiddenKiller, we use [OpenAttack](https://github.com/thunlp/OpenAttack) to generate poisoning data. For more attack settings, please see Section 6.1.
+
+---
+
+## Directory Structure
+A typical layout is:
+
+```
+Data_Poisoning/
+├── BadNets/
+│   ├── SST-2/
+│   ├── HSOL/
+│   └── AG/
+├── AddSent/
+│   ├── SST-2/
+│   ├── HSOL/
+│   └── AG/
+└── HiddenKiller/
+    ├── SST-2/
+    ├── HSOL/
+    └── AG/
+
+Each dataset folder contains:
+
+train_clean.csv
+train_poisoned.csv
+test_clean.csv
+test_poisoned_part.csv
+test_poisoned_all.csv
+
+```
