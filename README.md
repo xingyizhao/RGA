@@ -34,6 +34,7 @@ pip install -r requirements.txt
 ```
 
 - **Usage**
+
 Bert
 ```
 python bert_unlearn.py
@@ -44,6 +45,6 @@ Distilbert
 python distilbert_unlearn.py
 ```
 
-llama
+Llama2
 ```
 python llama_unlearn.py
