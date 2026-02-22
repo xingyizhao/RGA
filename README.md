@@ -16,16 +16,24 @@
 
 ---
 
-## Overview
-Backdoor attacks pose a significant threat to machine learning models, allowing adversaries to implant hidden triggers that alter model behavior when activated. Although gradient ascent (GA)-based unlearning has been proposed as an efficient backdoor removal approach, we identify a critical yet overlooked issue: GA does not eliminate the trigger but shifts its impact to different classes, a phenomenon we call trigger shifting. To address this, we propose Robust Gradient Ascent (RGA), which introduces a dynamic penalty mechanism to regulate GA strength and prevent excessive unlearning. For more details please refer to our (paper)[https://openreview.net/pdf?id=voqtsqYS6j].
+## 🔍 Overview
+Backdoor attacks pose a significant threat to machine learning models, allowing adversaries to implant hidden triggers that alter model behavior when activated. Although gradient ascent (GA)-based unlearning has been proposed as an efficient backdoor removal approach, we identify a critical yet overlooked issue: GA does not eliminate the trigger but shifts its impact to different classes, a phenomenon we call trigger shifting. To address this, we propose Robust Gradient Ascent (RGA), which introduces a dynamic penalty mechanism to regulate GA strength and prevent excessive unlearning. For more details please refer to our [paper](https://openreview.net/pdf?id=voqtsqYS6j).
 
-## System Configuration
-- OS, GPU, CUDA, Python version, etc.
+## ⚙️ System Configuration
+The code has been developed and tested using the following system setup:
 
-## Installation
+- **GPU Driver:** NVIDIA driver 590.44.01   
+- **CUDA Version:** 13.1  
+- **Python Version:** 3.10.19  
+- **PyTorch Version:** 2.9.0+cu128 
+
+## 🚀 Installation and Usage
 ```bash
-git clone https://github.com/<user>/<repo>.git
-cd <repo>
+git clone https://github.com/xingyizhao/RGA.git
+cd RGA
 conda create -n rga python=3.10 -y
 conda activate rga
 pip install -r requirements.txt
+```
+
+Runing code
