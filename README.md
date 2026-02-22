@@ -3,9 +3,9 @@
 ---
 
 ## 📚 Table of Contents
-1. [Overview](#overview)
-2. [System Configuration](#system-configuration)
-3. [Installation--Usage](#installation--Usage)
+1. [Overview](#-overview)
+2. [System Configuration](#-system-configuration)
+3. [Installation--Usage](#-Installation--Usage)
 5. [Datasets](#datasets)
 6. [Citation](#citation)
 7. [Contact \& Support](#contact--support)
