@@ -42,10 +42,12 @@ Distilbert
 python distilbert_unlearn.py
 ```
 
-```
-Llama2
+llama2
 ```
 python llama_unlearn.py
+```
+
+**Note:** All hyperparameters are defined in `config.py` with default values. For a quick run, simply execute the corresponding Python script (e.g., `python bert_unlearn.py`).
 
 ## 📝 Citation
 
