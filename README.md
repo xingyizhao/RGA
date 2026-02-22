@@ -27,7 +27,6 @@ git clone https://github.com/xingyizhao/RGA.git
 cd RGA
 conda create -n rga python=3.10 -y
 conda activate rga
-pip install -r requirements.txt
 ```
 
 - **Usage**
