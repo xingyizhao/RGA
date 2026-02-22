@@ -4,7 +4,7 @@
 
 ## 📚 Table of Contents
 1. [Overview](#-overview)
-2. [System Configuration](#-dependencies)
+2. [Dependencies](#-dependencies)
 3. [Installation--Usage](#-installation--usage)
 4. [Citation](#-citation)
 
