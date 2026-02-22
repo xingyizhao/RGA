@@ -3,10 +3,10 @@
 ---
 
 ## 📚 Table of Contents
-1. [Overview](#-overview)
-2. [Dependencies](#-dependencies)
-3. [Installation--Usage](#-installation--usage)
-4. [Citation](#-citation)
+1. [Overview](#-Overview)
+2. [Dependencies](#-Dependencies)
+3. [Installation--Usage](#-Installation--usage)
+4. [Citation](#-Citation)
 
 ---
 
@@ -21,7 +21,7 @@ The code has been developed and tested using the following system setup:
 - **Python Version:** 3.10.19  
 - **PyTorch Version:** 2.9.0+cu128 
 
-## 🚀 installation--usage
+## 🚀 Installation--Usage
 - **Installation**
 ```bash
 git clone https://github.com/xingyizhao/RGA.git
