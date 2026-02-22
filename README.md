@@ -5,11 +5,7 @@
 ## 📚 Table of Contents
 1. [Overview](#overview)
 2. [System Configuration](#system-configuration)
-3. [Installation](#installation)
-4. [Usage](#usage)
-   - [Cloning the Repository](#cloning-the-repository)
-   - [Running the Code](#running-the-code)
-   - [Command-Line Options](#command-line-options)
+3. [Installation--Usage](#installation--Usage)
 5. [Datasets](#datasets)
 6. [Citation](#citation)
 7. [Contact \& Support](#contact--support)
@@ -27,7 +23,8 @@ The code has been developed and tested using the following system setup:
 - **Python Version:** 3.10.19  
 - **PyTorch Version:** 2.9.0+cu128 
 
-## 🚀 Installation and Usage
+## 🚀 Installation--Usage
+- **Installation**
 ```bash
 git clone https://github.com/xingyizhao/RGA.git
 cd RGA
@@ -36,4 +33,17 @@ conda activate rga
 pip install -r requirements.txt
 ```
 
-Runing code
+- **Usage**
+Bert
+```
+python bert_unlearn.py
+```
+
+Distilbert
+```
+python distilbert_unlearn.py
+```
+
+llama
+```
+python llama_unlearn.py
