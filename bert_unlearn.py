@@ -18,11 +18,11 @@ from util import set_seed, TargetDataset, BertClassification, train, evaluate, r
 This modules implements the backdoor attack and unlearning process for Bert-based text classification models. It includes the following steps:
 1. Training a backdoored Bert model on a poisoned dataset.
 2. Evaluating the backdoored model on both clean and poisoned test sets.
-3. (Optional) Detecting the poisoned samples using CUBE, which consists of UMAP
-    for dimension reduction and HDBSCAN for clustering.
+3. (Optional) Detecting the poisoned samples using CUBE, which consists of UMAP for dimension reduction and HDBSCAN for clustering. [enbale cube in config.py]
 4. Unlearning the backdoor using one of the following methods: Retraining (RT), Gradient Ascent (GA), Negative Preference Optimization (NPO), and Robust Gradient Ascent (RGA).
 
-Note: We test the code on different GPUs including H200 [1 GPU], A6000ada [4 GPUs] and 3090 [one 3090 only for bert and distilbert]; The results of NPO could be different [But you can still view the poison loss keeps increasing in GA and NPO].
+Note: We test the code on different GPUs including H200 [1 GPU], A6000ada [4 GPUs] and 3090 [one 3090 only for bert and distilbert];
+      The results of NPO could be different among different type of GPU [But you can still view the poison loss keeps increasing in GA and NPO].
       The increasing poison loss would eventually lead to trigger shifting.
       However, RGA is more stable and consistently outperforms NPO in most cases. 
 
